@@ -7,11 +7,14 @@
 系统内核版本 2.6.32-642.6.2.el6.x86_64
 
 ## 启用hybla模块
-### 检查是否启用hybla模块
-
-    sysctl net.ipv4.tcp_available_congestion_control | grep hybla
-
-### 启用hybla模块
+1. 检查是否启用hybla模块
 		
-	/sbin/modprobe tcp_hybla
+2. 启用hybla模块
+
+3. 修改/etc/sysctl.conf
+
+4. 检查hybla模块正常启用
+
+5. 设置开机自启
+
     
